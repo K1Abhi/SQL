@@ -1,12 +1,23 @@
 # Case Study 1: Danny's Diner
 
-## Solution
-
-[View the complete code](https://github.com/YogeshOlla/8-Weeks-SQL-Challenge/blob/main/Case%20Study%201%20-%20Danny's%20Diner/SQL%20Code/Case%20Study%201%20-%20Danny's%20Diner.sql).
-
-***
 
 ### 1. What is the total amount each customer spent at the restaurant?
+
+````sql
+create table icc_world_cup
+(
+Team_1 Varchar(20),
+Team_2 Varchar(20),
+Winner Varchar(20)
+);
+INSERT INTO icc_world_cup values('India','SL','India');
+INSERT INTO icc_world_cup values('SL','Aus','Aus');
+INSERT INTO icc_world_cup values('SA','Eng','Eng');
+INSERT INTO icc_world_cup values('Eng','NZ','NZ');
+INSERT INTO icc_world_cup values('Aus','India','India')
+
+````
+
 
 ````sql
 Select S.customer_id, Sum(M.price) as Total_sales
