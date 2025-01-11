@@ -1,7 +1,7 @@
 # Case Study 1: Danny's Diner
 
 
-### 1. What is the total amount each customer spent at the restaurant?
+### 1- write a query to produce below output from icc_world_cup table  | team_name, no_of_matches_played , no_of_wins , no_of_losses |
 
 ````sql
 create table icc_world_cup
@@ -14,7 +14,7 @@ INSERT INTO icc_world_cup values('India','SL','India');
 INSERT INTO icc_world_cup values('SL','Aus','Aus');
 INSERT INTO icc_world_cup values('SA','Eng','Eng');
 INSERT INTO icc_world_cup values('Eng','NZ','NZ');
-INSERT INTO icc_world_cup values('Aus','India','India')
+INSERT INTO icc_world_cup values('Aus','India','India');
 
 ````
 
