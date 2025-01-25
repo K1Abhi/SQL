@@ -35,16 +35,16 @@ This analysis helps the company:
    
 <details>
   <summary>View Solution </summary>
-                  ```sql
-                  select city, sum(amount), 
-                           ( sum(amount)/(select sum(amount) from credit_card_transcations ) )* 100 as percentage_contribution
-                  from credit_card_transcations
-                  group by city
-                  order by 2 DESC
-                  limit 5
-                  ;
-                  ```
-</details>
+```sql
+select city, sum(amount), 
+         ( sum(amount)/(select sum(amount) from credit_card_transcations ) )* 100 as percentage_contribution
+from credit_card_transcations
+group by city
+order by 2 DESC
+limit 5
+;
+</details>```
+
 <details>
   <summary>View the Table</summary>
 
