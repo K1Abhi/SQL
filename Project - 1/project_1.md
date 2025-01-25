@@ -23,17 +23,18 @@ AMOUNT (INTEGER):    The transaction amount.
 - Visualization in Tableau .
 
 
+## Deliverables:
+
+### Top 5 Cities with Highest Credit Card Spends and Their Contribution
+
+A credit card company wants to identify the top 5 cities where customers spend the most and how much they contribute to total revenue.
+This analysis helps the company:
+1. Focus marketing efforts on high-spending cities.
+2. Allocate resources effectively.
+3. Offer personalized promotions based on spending patterns.
+
 ```python
-import foobar
 
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
 ```
 
 ## Contributing
