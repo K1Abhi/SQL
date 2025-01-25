@@ -17,7 +17,11 @@ AMOUNT (INTEGER):    The transaction amount.
 ![alt text](https://github.com/K1Abhi/SQL/blob/main/images/Table_1.png)
 
 
-## Usage
+## Tools & Technologies:
+- SQL for data querying and analysis.
+- Snowflake as the database.
+- Visualization in Tableau.
+
 
 ```python
 import foobar
