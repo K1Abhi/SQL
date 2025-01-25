@@ -42,6 +42,9 @@ order by 2 DESC
 limit 5
 ;
 ```
+<details>
+  <summary>View the Table</summary>
+
 | CITY               | SUM(AMOUNT) | PERCENTAGE_CONTRIBUTION |
 |--------------------|-------------|-------------------------|
 | Greater Mumbai, India | 576751476   | 14.154000                |
@@ -50,6 +53,7 @@ limit 5
 | Delhi, India          | 556929212   | 13.667500                |
 | Kolkata, India        | 115466943   | 2.833700                 |
 
+</details>
 
 
 
