@@ -33,8 +33,7 @@ This analysis helps the company:
 2. Allocate resources effectively.
 3. Offer personalized promotions based on spending patterns.
    
-<details>
-  <summary>View Solution </summary>
+Solution:
 ```sql
 select city, sum(amount), 
          ( sum(amount)/(select sum(amount) from credit_card_transcations ) )* 100 as percentage_contribution
@@ -43,7 +42,7 @@ group by city
 order by 2 DESC
 limit 5
 ;
-</details>```
+```
 
 <details>
   <summary>View the Table</summary>
