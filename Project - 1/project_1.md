@@ -25,23 +25,26 @@ AMOUNT (INTEGER):    The transaction amount.
 
 ## Deliverables:
 
-### Top 5 Cities with Highest Credit Card Spends and Their Contribution
+### #1. Top 5 Cities with Highest Credit Card Spends and Their Contribution
 
-A credit card company wants to identify the top 5 cities where customers spend the most and how much they contribute to total revenue.
+The credit card company wants to identify the top 5 cities where customers spend the most and how much they contribute to total revenue.
 This analysis helps the company:
 1. Focus marketing efforts on high-spending cities.
 2. Allocate resources effectively.
 3. Offer personalized promotions based on spending patterns.
-
-```sql
-select city, sum(amount), 
-         ( sum(amount)/(select sum(amount) from credit_card_transcations ) )* 100 as percentage_contribution
-from credit_card_transcations
-group by city
-order by 2 DESC
-limit 5
-;
-```
+   
+<details>
+  <summary>View Solution </summary>
+                  ```sql
+                  select city, sum(amount), 
+                           ( sum(amount)/(select sum(amount) from credit_card_transcations ) )* 100 as percentage_contribution
+                  from credit_card_transcations
+                  group by city
+                  order by 2 DESC
+                  limit 5
+                  ;
+                  ```
+</details>
 <details>
   <summary>View the Table</summary>
 
