@@ -19,8 +19,8 @@ AMOUNT (INTEGER):    The transaction amount.
 
 ## Tools & Technologies:
 - SQL for data querying and analysis.
-- Snowflake as the database.
-- Visualization in Tableau.
+- Snowflake ❄️ as the database.
+- Visualization in Tableau .
 
 
 ```python
